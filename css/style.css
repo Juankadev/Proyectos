@@ -1369,3 +1369,35 @@ p {
 a.btn:hover{
   transform: scale(0.9)
 }
+
+.profile-thumb{
+  animation: flipInY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+} 
+
+
+
+.proyectos-container > div{
+  transition: 1s;
+}
+.proyectos-container > div:hover{
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.333);
+}
+
+.proyectos-container > div.izquierda{
+  transform: perspective(15cm) rotateX(0) rotateY(5deg);
+}
+
+.proyectos-container > div.derecha{
+  transform: perspective(15cm) rotateX(0) rotateY(-5deg);
+}
+
+.proyectos-container > div.izquierda:hover{
+  transform: perspective(15cm) rotateX(0) rotateY(0);
+}
+
+.proyectos-container > div.derecha:hover{
+  transform: perspective(15cm) rotateX(0) rotateY(0);
+}
+
+
