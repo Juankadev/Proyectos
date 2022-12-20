@@ -1385,11 +1385,11 @@ a.btn:hover{
 }
 
 .proyectos-container > div.izquierda{
-  transform: perspective(15cm) rotateX(0) rotateY(5deg);
+  transform: perspective(15cm) rotateX(0) rotateY(2deg);
 }
 
 .proyectos-container > div.derecha{
-  transform: perspective(15cm) rotateX(0) rotateY(-5deg);
+  transform: perspective(15cm) rotateX(0) rotateY(-2deg);
 }
 
 .proyectos-container > div.izquierda:hover{
