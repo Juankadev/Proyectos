@@ -1401,3 +1401,14 @@ a.btn:hover{
 }
 
 
+.fh5co-bg-dark {
+  background: #ff9000;
+  background: rgb(255,144,0);
+  background: linear-gradient(180deg, rgba(255,144,0,1) 0%, rgba(13,255,211,1) 100%);
+}
+body{
+  background: rgb(255,144,0);
+  background: linear-gradient(180deg, rgba(255,144,0,1) 0%, rgba(13,255,211,1) 100%);
+  background-image: none;
+  scroll-behavior: smooth;
+}
