@@ -161,10 +161,18 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   margin-right: -30px;
 }
+
+.proyecto{
+  width: 32%;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
     font-size: 34px;
+  }
+  .proyecto, .derecha, .izquierda{
+    width: 100%;
   }
   #fh5co-header .display-tc h1 span:before,
   .fh5co-cover .display-tc h1 span:before {
@@ -377,7 +385,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
 }
-#fh5co-about .fh5co-social-icons li {
+#fh5co-about .fh5co-social-icons  {
   padding: 0;
   list-style: none;
   display: -moz-inline-stack;
@@ -385,7 +393,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
 }
-#fh5co-about .fh5co-social-icons li a {
+#fh5co-about .fh5co-social-icons  {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -398,10 +406,10 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
-#fh5co-about .fh5co-social-icons li a i {
+#fh5co-about .fh5co-social-icons {
   font-size: 20px;
 }
-#fh5co-about .fh5co-social-icons li a:hover {
+#fh5co-about .fh5co-social-icons  {
   background: #FF9000;
 }
 
@@ -1375,6 +1383,13 @@ a.btn:hover{
   animation-duration: 2s; /* don't forget to set a duration! */
 } 
 
+.proyectos-container{
+  display: flex; 
+  column-gap: 10px;
+  width: 100%;
+  flex-wrap: wrap; 
+  row-gap: 50px;
+}
 
 
 .proyectos-container > div{
